@@ -1,0 +1,13 @@
+name = "Halide"
+uuid = "26cb47bb-16f4-45b8-86ca-ecaeb6ea8cd7"
+authors = ["Johnny Chen <johnnychen94@hotmail.com>"]
+version = "0.1.0"
+
+[deps]
+CxxWrap = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
